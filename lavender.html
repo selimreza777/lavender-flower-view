@@ -12,8 +12,40 @@
 
 </head>
 
-<body class="noto-serif-font">
-  <header>
+<body class="noto-serif-font bg-[#f5f7ff]">
+  <header class="bg-[#f5f7ff]">
+    <div class="max-w-[1140px] mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- logo create -->
+      <div class="flex items-center">
+        <img src="images/logo.png" alt="">
+      </div>
+      <!-- menu nav side desktop-view  -->
+      <div class="hidden md:flex items-center space-x-8 text-gray-500 text-sm font-semibold">
+        <a href="#" class="text-black font-semibold">Home</a>
+        <a href="#" class="text-gray">Shop</a>
+        <a href="#" class="text-gray">About Us</a>
+        <div class="flex items-center space-x-1 text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-5 h-5" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m5-9v9m4-9v9m1-9h2m-6 0h.01" />
+          </svg>
+
+          <span>cart ($56)</span>
+
+        </div>
+      </div>
+      <!-- mobile view  -->
+      <div class="flex md:hidden items-center space-x-1 text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-5 h-5" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m5-9v9m4-9v9m1-9h2m-6 0h.01" />
+        </svg>
+        <span class="text-sm font-medium">Cart ($56)</span>
+      </div>
+
+    </div>
+    </div>
+
   </header>
   <main>
 
